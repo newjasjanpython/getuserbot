@@ -1,3 +1,4 @@
 env
 auth.py
 my*.session
+__pycache__
