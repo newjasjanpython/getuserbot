@@ -9,7 +9,7 @@ import auth
 logging.basicConfig(level=logging.DEBUG)
 
 
-bot = aio.Bot("7480340893:AAH4H1hcZbmB7iJyf5Y0yDOywcF2Sa4-AGI")
+bot = aio.Bot(auth.TOKEN)
 dp = aio.Dispatcher()
 
 client = clt.Client(
